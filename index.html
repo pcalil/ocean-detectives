@@ -667,7 +667,6 @@ if(window.matchMedia){
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderAll);
 }
 new MutationObserver(renderAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
-</script>
 
 </script>
 <script src="./sst-climatology.js"></script>
